@@ -36,8 +36,11 @@
     * 色々質問されるが全てエンターでOK
   * あった場合
     * 最初の質問でファイル名を入力(後はエンター)
-* `$ cat id_rsa.pub`
-* 出力された文字列を管理者(s-yama)に知らせる
+* https://github.com/settings/keys にアクセス
+* `New SSH key`ボタンをクリック
+* [Title]にPCの名前とか入れておくと後で楽
+* [Key]には以下のコマンドの出力結果をコピペする
+  * `$ cat id_rsa.pub` 
 
 ### Windowsの場合
 [参照](http://www.granfairs.com/blog/staff/gitbash-setting-shortcut)
